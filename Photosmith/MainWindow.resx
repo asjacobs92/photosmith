@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="originalImageBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="originalImageBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="originalImageBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="originalImageBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="originalImageBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;originalImageBox.Name" xml:space="preserve">
+    <value>originalImageBox</value>
+  </data>
+  <data name="&gt;&gt;originalImageBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;originalImageBox.Parent" xml:space="preserve">
+    <value>originalPictureBoxPanel</value>
+  </data>
+  <data name="&gt;&gt;originalImageBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="menuBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="menuBar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="openMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAADQSURBVDhPndM/DgFREAbwVUgE
+        DaJXOIBCrSNqCRKFzgkUTkDDCRQUGjfR4AISV/CnUGjG9032bTa8DeNLfu/lzWZmd7PZQERoCtuYDeTA
+        XU/EpQK+jOGj4R2XHSRlAn2PGkQD/o2+Igc89Chy9bjB3eMCBYieYAh50Mey4LKHVFhoQPMHLehBh01z
+        4F4Hc9jYDfcFC8ac2VgE7gdWjFmykcrwZMWYkRvQ1qM9VTdgpkdbTqCfMQ1HVoxZgw4o6dGeAeiALKwg
+        /jt/w7tnRCR4Ac3apFmfXyuSAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="openMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="openMenuItem.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="saveMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAE6SURBVDhPrdM5SwNBGIdxtVCR
+        gFp64lVpLxYWfgO/gpYKfiy79LaCSGwMtt4H3sZoPEBEWZ9nmQ2TkHiAL/zIHu/8d3Zm05IkSQFXOMcJ
+        jiLHuAiyax4/YB1TBtzhp/oIv9Z7+LWKBlzjDEvYRlyGL2AZbyhhESt49ZoBT9hCK/KI6xD25PAMX6Ez
+        XNtD2YNHFDGMNcR1AHt6UIHrNIAOuF7VAKc+gQ3E9YI5zOMTNxiFszhFGuCK7mAMq7jHfuBTsp0pYxP9
+        6EI1wBtul1PrxSR8ioHjmME0vD6CNvShJsBdGITnvzGEmgBP/hJg7/8G+ApuY31jM/Y6Jg1wf3fRjvrG
+        Zux1TMWT22AW3XCBnGIj3rPH3nScAX7fVrb/Ts33a8R79thrlQzw73wJvzI/KtfkO/bYy5ik8AXbK4sl
+        kt+6jgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="saveMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="saveMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="exitMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACISURBVDhPpZNBDoAgDAR5mAef
+        IU/1wp+8eavdakmDUsVuMom03Y0oJCJSVmZjFlNrQQ8zmJWaNlCwegpBzUpC0CiyvMuGtGZVQdPTfNEV
+        AvL5+Ev57RU9yRY1YDSkfh8bACZmZ3pCDzPVY80gFBDawohZJSEwh3+jp08HKXyUQegyKSgMXmdKBzsY
+        pzbSDXYoAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="exitMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="exitMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="fileMenu.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="fileMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="fileMenu.Text" xml:space="preserve">
+    <value>FILE</value>
+  </data>
+  <data name="adjustColorsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="adjustColorsMenuItem.Text" xml:space="preserve">
+    <value>Adjust colors</value>
+  </data>
+  <data name="rotateLeftMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="rotateLeftMenuItem.Text" xml:space="preserve">
+    <value>Rotate left</value>
+  </data>
+  <data name="rotateRightMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="rotateRightMenuItem.Text" xml:space="preserve">
+    <value>Rotate right</value>
+  </data>
+  <data name="invertYAxisMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="invertYAxisMenuItem.Text" xml:space="preserve">
+    <value>Invert vertical axis</value>
+  </data>
+  <data name="invertXAxisMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="invertXAxisMenuItem.Text" xml:space="preserve">
+    <value>Invert horizontal axis</value>
+  </data>
+  <data name="negativeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="negativeMenuItem.Text" xml:space="preserve">
+    <value>Convert to negative</value>
+  </data>
+  <data name="grayscaleMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="grayscaleMenuItem.Text" xml:space="preserve">
+    <value>Convert to grayscale</value>
+  </data>
+  <data name="equalizeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="equalizeMenuItem.Text" xml:space="preserve">
+    <value>Equalize</value>
+  </data>
+  <data name="quantizeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="quantizeMenuItem.Text" xml:space="preserve">
+    <value>Quantize</value>
+  </data>
+  <data name="convolveMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="convolveMenuItem.Text" xml:space="preserve">
+    <value>Convolve</value>
+  </data>
+  <data name="zoomInMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="zoomInMenuItem.Text" xml:space="preserve">
+    <value>Zoom in</value>
+  </data>
+  <data name="defaultZoomOutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="defaultZoomOutMenuItem.Text" xml:space="preserve">
+    <value>2 x 2</value>
+  </data>
+  <data name="customZoomOutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="customZoomOutMenuItem.Text" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="zoomOutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="zoomOutMenuItem.Text" xml:space="preserve">
+    <value>Zoom out</value>
+  </data>
+  <data name="editMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="editMenu.Text" xml:space="preserve">
+    <value>EDIT</value>
+  </data>
+  <data name="histogramMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="histogramMenuItem.Text" xml:space="preserve">
+    <value>Histogram</value>
+  </data>
+  <data name="toolsMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="toolsMenu.Text" xml:space="preserve">
+    <value>TOOLS</value>
+  </data>
+  <data name="menuBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1119, 24</value>
+  </data>
+  <data name="menuBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuBar.Text" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Name" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="toolBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>117, 17</value>
+  </metadata>
+  <data name="openButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="openButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="openButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhLtZbNisIwGEWDIoqICCIquKo7iytFxIWCIm6E
+        QaXahQr6AqIuBPH37WbmFcaHkFkM7r7JLWSw2tKmUwMHQtLc06RNWoZyPp+10+n0cTwerz7xjkwR/sbD
+        6RUgm3HbxarTD5ANwc2q0w+QDcH3feN6vaZyuUylUumParVqGugWZENwFQ2bzYaKxSJls9kn6vX6U4AT
+        yDYJms0mZTIZWzAziB7BuN1u5yyoVCqUTqc9MRqN3AlSqRQVCgVpptOps0BRFGO97y/6D08CVVWp0WgY
+        9e12S5qmuWYwGFC/36fZbGYvwAPTdd2ot1otSiQS0uTzeXtBr9ej1Wpl1HO5HMXjcWlwk7YCEY7NFovF
+        PDGZTOwFAqxnNBqVBrPGZhU5toJarUaRSESaxyPFUrDf741dGw6HpREviMBSsFgsKBQKeWK5XDoLut0u
+        BYNBaZLJJB0OB0uB6bjudDoUCASkabfbpnCAbAh+7hvH47Gxo2WZz+emcMCzb4xXvh47/IILLq//6KNw
+        05DzybH6BfECsoaMMfYLVat8JCnBHmsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="openButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="openButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="openButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="openButton.Text" xml:space="preserve">
+    <value>openButton</value>
+  </data>
+  <data name="openButton.ToolTipText" xml:space="preserve">
+    <value>Open image.</value>
+  </data>
+  <data name="saveButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="saveButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIdSURBVEhLtZZLi+JAFIWDiigioohvXelKfL8fKzeiCIPC
+        9M6VIqKIunDhA9R/NzN/YfpHSC8Gd3dyLlSIRpuQtgMH6t7UOZ+piqUSrvP5/PN0Ov0+Ho+XF+kXMkX4
+        DzmcvkPIlmTa+6ObrxCyAbiKxmAwoGazaVjr9foecAXgQzQymQwFg0HDSqVStFgs1IAPAC6i0Wg0KBAI
+        UDgcpmg0yuN7xWIxFgLVtbhfKpXUgMsNoF6vk9/vp263S7PZjMdqAbrdbmm321E8HufeeDzmOpfLcV2t
+        Vp8DarUa+Xw+6vf7tNlseKwWAGJuIpHg3nw+57rVanGNDDFHAwDd6/VSr9ej5XLJY7UikYhiBgC9yWTC
+        NZYX9adPUKlUyOPxMACbhfG9hsMhjUYjpcYYXiwvamQ8BZTLZXK73dTpdGi1WvGSqIXNxzJgM0OhEPem
+        0yl7sTTwIuMpAG+Ay+VSHlO+p9HhcKD9fq/UwgsPvJ++RYVCgZxO582n0CssDbzIED0NIJ/Pk8PhMASA
+        B15kiJ4GgHfZbrdTsVhUJukVPPAiQ/Q0gGw2SzabzTAAXmSIngaAs8hqtd5slF7BAy8yRE8DwGFlsVhu
+        PoVewQMvMkTvIcBsNvOjptNpXk89wlx44H0EUI5rfHFMJtOXhAwVgI/rf6LRbrcpmUx+SchQAa6SPPgr
+        Gq+WDHj//h99XDLpTdYfWY/+ghgRst4kSZL+AxJWmrr5WwIoAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="saveButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="saveButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="saveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>saveButton</value>
+  </data>
+  <data name="saveButton.ToolTipText" xml:space="preserve">
+    <value>Save image.</value>
+  </data>
+  <data name="copyButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIoSURBVEhLtZZrqylRGMfnBSLJJTYikUvu98gtXimF88pO
+        ES9QUihE5Prtzjlf4ewPsTsvTvvdc+aZGq1l1uZ0sqd+mdYz6/8bz5o1cHhcLpfW+Xz+cTqd3p/Ed8wU
+        w7/x4fAVYDbH295YxWeA2Sj4IAcbjQYkk0koFosS8vk8ZLNZmE6nVNBnYDYKfpODGG61Wu8SiUTgeDxS
+        YSwwGwXv5CAKLBbLQ8Lh8EMJZksEiUQCzGbzP+FyuWC1WlGhJExBPB6Hl5eXhxQKBWg2m1Cr1ahQEqYg
+        FouB0Wi8SzAYFK7FFh0Oh+vcW5gCXECDwXAXvHtsDZ5jS8n5JEwBLp5er2eCtWq1CoPBAObz+XUcHwwy
+        Q4QpCIVCoNVqJWQyGWpyu92m6thaso4wBYFAADQajYTFYgG9Xk84N5lMoNPpJNfgA9Ltdu8L/H4/qNVq
+        Cev1GobDIbNGQraLKfD5fKBSqSRsNhsYjUbMmojD4YB6vf5YoFQqJVQqFaHe6XSg1WpBOp2m6na7Hbbb
+        7TUHYQo8Hg8oFAomuVwOxuOx8G0mk8l13GazwW63o8IRpsDtdoNcLr9LKpWC5XIJMplM2NX7/Z4KFmEK
+        PlsDknK5LFzb7/clbSERBdTr2uv1Mu/6Ftxws9lM+MSWkRkimI2CP+QgLqDT6RQ2HItoNCrUcb/gc18q
+        lahQEj77g+NPft0WngUvePv6H308eNMrz08e1l+Q/wGzXjmO4/4CjIWAQXKrzWAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="copyButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="copyButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="copyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="copyButton.Text" xml:space="preserve">
+    <value>copyButton</value>
+  </data>
+  <data name="copyButton.ToolTipText" xml:space="preserve">
+    <value>Copy original image to right canvas.</value>
+  </data>
+  <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="invertYButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIzSURBVEhLtZZdy2FRFMdF8hISCblCLpAo5Ya8v8vMhVCU
+        XHGFxI2XvHy8mW8wM1/iaW5m7tac/2rO6cyxPTQ91K/zX3uvtf7sfexzdPicz+fB5XL5Il3fPoivEgNu
+        fr1eP0vN6RVIJp90kvihnfgoJIPvWJ7fokkto9GIJpMJAy3K0YLeMPgpmtSSyWSoWq0y0KIcLegNgzfR
+        pJrj8Uh+v58KhQIDjTFRrhr0fspgPB6Tz+ejbrfLQGNMlKvmaYNIJEJer1cxgMaYKFfNUwbYUI/Hw3Q6
+        HUaOH232QwNpjoLBILndbgbN2+22EmMOOaJa8NBgPp+Ty+Xi5cC1Xq+zAbTMbDYT1oKHBslkkpxOJ/V6
+        Pb5WKhVqtVqsZdLptLAWvGuwWq3I4XBQKpXiZYCGQbPZZK1muVze1IN3DaLRKNlsNtpsNhxDl8tlajQa
+        rNUkEombenDXYLFYkNVqpXA4zPF6vea4VCrxPkBrQY22z12DXC5HZrOZhsMhxyhGXCwWqVarsdaSz+f/
+        6QGEBvv9nkwmE9ntdjocDjyGNcYYjgmcRdBaLBYL7XY7pQ+4Mdhut/xNjEYjTadTJfF0OvFYNpvlZYIW
+        gV+IHnLdjQFuOYPBwPT7fQXcORjD0qGJnCNCfdvKBspxHQqFSK/X3wVLBURzMuihMuDjWnngYANjsRjF
+        43E+knFqgkAgwP8HOQ8aOVpQix5ynsSvlz4yJb69/qGPjyQGEnjVEL2C/A9/X1t0uj/Kxsdjmv38oAAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="invertYButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="invertYButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="invertYButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="invertYButton.Text" xml:space="preserve">
+    <value>invertYButton</value>
+  </data>
+  <data name="invertYButton.ToolTipText" xml:space="preserve">
+    <value>Invert vertical axis.</value>
+  </data>
+  <data name="invertXButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH3SURBVEhLtZbdyyFRGMAnJHJF8pGvC4S4ooSE5DvaJBM3
+        RCkfpbjABeG/e3f/hX3/CO3F9t49e56nzmSt2Z2Z9U79ivN8/OYcc84Q8Lper/3L5fL1fD7fXsQb9uTN
+        v7Dm8Blgb4HZ3p8FXwH2RsHHs6Aattst1Ot1yOfz0O12pXHsjYIf98lqORwO0Gw2IRAIgNvthkwmI8Ww
+        Nwpu9wVKWSwW0Gq1qLHL5ZJ4ENxUC1arFWSzWXA6nU/J5XJSrirBdDqFdDoNDofjr6Cc1ygSDAYDiEQi
+        YLfbFaFoifb7PQyHQwiHw2Cz2VSRSqXkBZPJhKZotVo1g8soK8B1rlarUCqVoFarQaPRUMVms4Hj8Sgv
+        wGUpFApQLBZJhJuHU6lUoFwuy4JxFJxOJ3lBr9eDRCIBFotFM8lkUl7AwR9ZFEXw+XxgNpuJUCgEnU6H
+        di6roeNhvV5LtNttyvP7/f8W3IOzQpHJZCLwDpfL5R954/GY4l6vVxpTJOCMRiOIRqNgNBqJYDBIcpwN
+        j+O4x+ORalQJOPP5HGKxGBgMBgLXvd/vE/hd8wwemc1m9MTp9frfQDnP4YL/Oq53ux0dcHj3Op3uUUDH
+        9c/7Ai3gU4QnQDwep/3Dx1nvD4F9+M4HXg0TvH/+Sx8vZhIZ3xjP/oJoAXuJgiAIvwC3o84vs+bTOgAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="invertXButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="invertXButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="invertXButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="invertXButton.Text" xml:space="preserve">
+    <value>invertXButton</value>
+  </data>
+  <data name="invertXButton.ToolTipText" xml:space="preserve">
+    <value>Invert horizontal axis.</value>
+  </data>
+  <data name="rotateRightButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAISSURBVEhLtZbJiuJQFIaDigOiojjigKgLp4WKIyhu3OvC
+        dkI3oqKiICgIIqhvV92v0PUQRS+a2p3OLyTk5saiurACH0jOOf9nLjdXBVy32+3H9Xr9eblc3p7ECzKl
+        8LYYTt8BsgXR9qpVfAbIhuBdqwiGwyHV63WOTqdD5/NZc0YJsiH4oy7sdjtqNpsUCAQeUiqVaLlcMnNq
+        kA3Bm/LmarWiUChEfr//U/R6PSZUCbIZwXq9Jp/P999Mp1MuHHCCRCJBXq/3SxwOh48Fg8GA3G63JhCn
+        UilKJpOadVCtVj8WxGIxcrlcHN1ulxnCcmBZ1H0ej4dOpxPTywjC4TA5nU6GRqPBDEiMx2OuFxyPR6aP
+        EUSjUXI4HAxYNql5NptROp2mfD5PuVyO6wXxePxez2az1Gq1WEEkEiGbzcbQ7/cZgbr+EYVCgRVgT1ut
+        VoZarSYLwGazuS+Fuk/NZDK59zOCYDBIFouFA8eCUrLdbu/LodULlE/NCLBbzGazJjgaisWivEskibqv
+        UqnI4ZwA4IUxGo0PGY1G8jAkdrtdrpXLZbkmwQkWiwUZDIaH4HRVBkj9+GLK+xKcAMznczKZTKTX6znU
+        AoAnUb9gEpKAO64xhL2u0+kYlO/FZ0A2BH+1iqDdblMmk7kD4X6/1+x7hJj9LogffqsLz0IUvH7/jz4u
+        0dQT+SWi9RfkKyCrJwiC8A90uXtGYdahgwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="rotateRightButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="rotateRightButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="rotateRightButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="rotateRightButton.Text" xml:space="preserve">
+    <value>rotateRightButton</value>
+  </data>
+  <data name="rotateRightButton.ToolTipText" xml:space="preserve">
+    <value>Rotates image by 90º clockwise.</value>
+  </data>
+  <data name="rotateLeftButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIcSURBVEhLtZbJaipBFIYbFQfEEXFAHEAXihMqgoiCKCrq
+        Im7MRkQQEceNIuKE+nb35hWShwh3ccnu3DoNLVZX6U2CafigqfPX/3dXnyoV8Dqfz+3T6fT7eDy+P4hf
+        6CmZPxFz+AnQWyBpb7ziI0BvDPjgFeX0+33I5/MMjUYDVqsVdw56Y8AfXlFiu91CpVIBt9sNLpeLSzQa
+        hW63y8xFbwx4lxcklsslBINBcDqdn6LValHz0ftmwG63g3A4DA6H40tUq9WLx92ATCYDdrv9W0yn0/sB
+        vV4PbDYbF5/PJ74ZwqsjyWQS5vP57YBcLgdWq5WhXq/D4XC46CaTCXi9Xq42m83eDohEImCxWCjwqeQ6
+        ZDgcMlpJTwXgmuNgPB4Hk8nEEAgEIJVKQSKRoD7kfr8Hs9nM6NGPCsAOMBgMn6JYLF4CsNuMRiOjSafT
+        dMB6vQaPxwN6vf4uuHMlc2QwGHB1sViM/QabzUZ8Gp1Ox6XZbFLm4/FYbEueFpeTCUCwRbVaLcO1Oe5Y
+        v9/P1SGhUEjcC9wApNPpgFqtvnC9LEQPGo2GqssZjUaSlh+AlMtlUKlU4p64HscA7Bqs8cAT9kp7OwCZ
+        zWbMGAZgGyqVSoZarSbXigF3j2s5GKBQKCjwyG632zyteFz/lRf+R6lUEnc7UigUYLFYcHXE+0MgN6/y
+        wqMgAW8//6OPF0l6JrwQeH9BvgN6PQuCIPwDEmt4c32tohQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="rotateLeftButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="rotateLeftButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="rotateLeftButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="rotateLeftButton.Text" xml:space="preserve">
+    <value>rotateLeftButton</value>
+  </data>
+  <data name="rotateLeftButton.ToolTipText" xml:space="preserve">
+    <value>Rotates image by 90º counter-clockwise.</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="zoomInButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJjSURBVEhLtZZdSyJhFMcHldAi01DLwjcSvJBQEV+KTG8s
+        X8CVYE3BLnyri1DBvLPUvt3ufoXtQ8ReLN2dnf+BeZh0dicXG/jB8/zPnPN/5jzPjEq4np+fv87n8++z
+        2ex1TXxDTaX4F7k4fQaoLcluL1rBdYDaMHjTCmrRbDbp/Pyczs7OBI1GQ/NegNow+KUVXKTb7VIsFiO3
+        2/2OSCRC7XZbMwe1YfCqFVRTLpdpf39fcHBwwKi1XC63lIfaugb1ep329vaYxdX2+32Kx+MiXqlU3uV+
+        yMDr9ZLL5aJUKiW06+trfiplfnp6yvccHh7S/f290HUNqtUqORwObsHT0xNrk8mENTAYDFh7fHwkn8/H
+        WjqdFvm6BicnJ7S7u0vRaJTnxWKRgsEga+Do6Ijy+TzHsAfQ0DIlX9cgk8mQ3W4XvcVYC8QuLi54nEwm
+        Rb6uQTabpZ2dHQoEAjy/u7vjFdpsNtaPj4+p0+lwDGNoOAhKvq4Bkq1WK21vb1Or1RI65mA6nfL84eFB
+        aGircp+uAcDJ2NraIo/HQ8PhkLXb21uxwaPRiN8J3IM9wFzJ1TVA77Eqi8XCbG5u8mbiJI3HY/5U4AmV
+        ON52df4/DXDOzWbzh4CxuoUKfzUoFAq0sbEhwOpubm6oVCqR0+nkzcRG41uEk6a0bpElA/T18vKSTCaT
+        AAY4PQuJjFrTYskgFAqR0WgUwAAbqk5aBcVAfK79fj8ZDAZBr9dbSloF1IbBb0Wo1WqUSCQoHA7T1dXV
+        UsKqyLXfJHnwczGwLmSDl8//0cclO9Vkfsho/QX5H1CrJkmS9AdeWN/PqTnQJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="zoomInButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="zoomInButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="zoomInButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="zoomInButton.Text" xml:space="preserve">
+    <value>zoomInButton</value>
+  </data>
+  <data name="zoomInButton.ToolTipText" xml:space="preserve">
+    <value>Zoom in the image by 2x2.</value>
+  </data>
+  <data name="zoomOutButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI/SURBVEhLtZbZiuJQEIaDirjgiru4XSmIqIj7euMOjggj
+        CnrhjggKeieK+nYz8wrTD9H0RdN3NakDCWrOTOzBDnyQ1F9Vf6yck8jgcblcvp/P55+n0+n1SfzAnlzz
+        b2xz+AqwN8O6vdDEZ4C90eCDJtIYDAZQKBQgl8vx9Pt9ai6CvdHgjSbeM51OIRqNgt1uvyEcDsN4PKbW
+        YG80eKWJ1zSbTbDZbDwOh4NwHSuVSoI67C1q0Ov1wGq1Eri73e/3hNVqBbFYjNdbrdZN7UMGbrcbLBYL
+        JJNJqo5kMhmS43Q6iSkXFzVot9tgMpnICI7HIzUHORwO4PF4SG4qleLjogbpdBqMRiNEIhFyXa/XIRAI
+        3FAul4mGzwBzcWRcvahBPp8Hg8HAzxbPaaBWqVTIeSKR4OtFDYrFIuh0OvD5fOR6sViQeeMYOCaTCdFC
+        oRDJxYXA1YsaYLFWqwWNRgOj0Yiag+x2O5KD4Fi5uKgBgitDrVaDy+WCzWYj0LfbLdkTmIPPAK85TdQA
+        Z493pVQqCSqVioxtuVySnZ3NZskv5HSMXdf/0wB3r0KheAg0po3wrwa1Wg3kcjkP3t1wOIRGowFms5k8
+        TL1eT95FuNJoo0MEBuv1GqrVKshkMh40wNVzV0i4jtEQGPj9fpBKpTxoMJ/PBYWPwhnwr2uv1wsSiYRn
+        NpsJij4D9kaDdy7Q7XYhHo9DMBiETqcjKPgsbO8Phj35fS88C9bg5es/+niwTl2WXyy0vyD/A/bqMgzD
+        /AGp5+gkrQ5UEwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="zoomOutButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="zoomOutButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="zoomOutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="zoomOutButton.Text" xml:space="preserve">
+    <value>zoomOutButton</value>
+  </data>
+  <data name="zoomOutButton.ToolTipText" xml:space="preserve">
+    <value>Zooms out the image by 2x2.</value>
+  </data>
+  <data name="toolBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="toolBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1119, 31</value>
+  </data>
+  <data name="toolBar.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="toolBar.Text" xml:space="preserve">
+    <value>toolBar</value>
+  </data>
+  <data name="&gt;&gt;toolBar.Name" xml:space="preserve">
+    <value>toolBar</value>
+  </data>
+  <data name="&gt;&gt;toolBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="modifiedImageBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="modifiedImageBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="modifiedImageBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="modifiedImageBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="modifiedImageBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;modifiedImageBox.Name" xml:space="preserve">
+    <value>modifiedImageBox</value>
+  </data>
+  <data name="&gt;&gt;modifiedImageBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modifiedImageBox.Parent" xml:space="preserve">
+    <value>modifiedImageBoxPanel</value>
+  </data>
+  <data name="&gt;&gt;modifiedImageBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="originalPictureBoxPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="originalPictureBoxPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="originalPictureBoxPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 67</value>
+  </data>
+  <data name="originalPictureBoxPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>538, 533</value>
+  </data>
+  <data name="originalPictureBoxPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;originalPictureBoxPanel.Name" xml:space="preserve">
+    <value>originalPictureBoxPanel</value>
+  </data>
+  <data name="&gt;&gt;originalPictureBoxPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;originalPictureBoxPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;originalPictureBoxPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="modifiedImageBoxPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="modifiedImageBoxPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="modifiedImageBoxPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>569, 67</value>
+  </data>
+  <data name="modifiedImageBoxPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>538, 533</value>
+  </data>
+  <data name="modifiedImageBoxPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;modifiedImageBoxPanel.Name" xml:space="preserve">
+    <value>modifiedImageBoxPanel</value>
+  </data>
+  <data name="&gt;&gt;modifiedImageBoxPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modifiedImageBoxPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;modifiedImageBoxPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1119, 611</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Photosmith</value>
+  </data>
+  <data name="&gt;&gt;fileMenu.Name" xml:space="preserve">
+    <value>fileMenu</value>
+  </data>
+  <data name="&gt;&gt;fileMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openMenuItem.Name" xml:space="preserve">
+    <value>openMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveMenuItem.Name" xml:space="preserve">
+    <value>saveMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitMenuItem.Name" xml:space="preserve">
+    <value>exitMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editMenu.Name" xml:space="preserve">
+    <value>editMenu</value>
+  </data>
+  <data name="&gt;&gt;editMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;adjustColorsMenuItem.Name" xml:space="preserve">
+    <value>adjustColorsMenuItem</value>
+  </data>
+  <data name="&gt;&gt;adjustColorsMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rotateLeftMenuItem.Name" xml:space="preserve">
+    <value>rotateLeftMenuItem</value>
+  </data>
+  <data name="&gt;&gt;rotateLeftMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rotateRightMenuItem.Name" xml:space="preserve">
+    <value>rotateRightMenuItem</value>
+  </data>
+  <data name="&gt;&gt;rotateRightMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;invertYAxisMenuItem.Name" xml:space="preserve">
+    <value>invertYAxisMenuItem</value>
+  </data>
+  <data name="&gt;&gt;invertYAxisMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;invertXAxisMenuItem.Name" xml:space="preserve">
+    <value>invertXAxisMenuItem</value>
+  </data>
+  <data name="&gt;&gt;invertXAxisMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;negativeMenuItem.Name" xml:space="preserve">
+    <value>negativeMenuItem</value>
+  </data>
+  <data name="&gt;&gt;negativeMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grayscaleMenuItem.Name" xml:space="preserve">
+    <value>grayscaleMenuItem</value>
+  </data>
+  <data name="&gt;&gt;grayscaleMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;equalizeMenuItem.Name" xml:space="preserve">
+    <value>equalizeMenuItem</value>
+  </data>
+  <data name="&gt;&gt;equalizeMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quantizeMenuItem.Name" xml:space="preserve">
+    <value>quantizeMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quantizeMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;convolveMenuItem.Name" xml:space="preserve">
+    <value>convolveMenuItem</value>
+  </data>
+  <data name="&gt;&gt;convolveMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zoomInMenuItem.Name" xml:space="preserve">
+    <value>zoomInMenuItem</value>
+  </data>
+  <data name="&gt;&gt;zoomInMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zoomOutMenuItem.Name" xml:space="preserve">
+    <value>zoomOutMenuItem</value>
+  </data>
+  <data name="&gt;&gt;zoomOutMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;defaultZoomOutMenuItem.Name" xml:space="preserve">
+    <value>defaultZoomOutMenuItem</value>
+  </data>
+  <data name="&gt;&gt;defaultZoomOutMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customZoomOutMenuItem.Name" xml:space="preserve">
+    <value>customZoomOutMenuItem</value>
+  </data>
+  <data name="&gt;&gt;customZoomOutMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolsMenu.Name" xml:space="preserve">
+    <value>toolsMenu</value>
+  </data>
+  <data name="&gt;&gt;toolsMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;histogramMenuItem.Name" xml:space="preserve">
+    <value>histogramMenuItem</value>
+  </data>
+  <data name="&gt;&gt;histogramMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openButton.Name" xml:space="preserve">
+    <value>openButton</value>
+  </data>
+  <data name="&gt;&gt;openButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveButton.Name" xml:space="preserve">
+    <value>saveButton</value>
+  </data>
+  <data name="&gt;&gt;saveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;copyButton.Name" xml:space="preserve">
+    <value>copyButton</value>
+  </data>
+  <data name="&gt;&gt;copyButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Name" xml:space="preserve">
+    <value>toolStripSeparator</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;invertYButton.Name" xml:space="preserve">
+    <value>invertYButton</value>
+  </data>
+  <data name="&gt;&gt;invertYButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;invertXButton.Name" xml:space="preserve">
+    <value>invertXButton</value>
+  </data>
+  <data name="&gt;&gt;invertXButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rotateRightButton.Name" xml:space="preserve">
+    <value>rotateRightButton</value>
+  </data>
+  <data name="&gt;&gt;rotateRightButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rotateLeftButton.Name" xml:space="preserve">
+    <value>rotateLeftButton</value>
+  </data>
+  <data name="&gt;&gt;rotateLeftButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zoomInButton.Name" xml:space="preserve">
+    <value>zoomInButton</value>
+  </data>
+  <data name="&gt;&gt;zoomInButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zoomOutButton.Name" xml:space="preserve">
+    <value>zoomOutButton</value>
+  </data>
+  <data name="&gt;&gt;zoomOutButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuantizeForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdjustColorsForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvolveForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomZoomOutForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantizeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdjustColorsForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvolveForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomZoomOutForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainWindow.en.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuantizeForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdjustColorsForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistogramForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConvolveForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomZoomOutForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\closeMenuIcon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\copy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\copyMouseDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\greyscale.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\invertX.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\invertXMouseDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\invertY.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\invertYMouseDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\openMenuIcon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\openMouseDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\rotateLeft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\rotateLeftMouseDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\rotateRight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\rotateRightMouseDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\save.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\saveMenuIcon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\saveMouseDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\zoomIn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\zoomInMouseDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\zoomOut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\zoomOutMouseDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

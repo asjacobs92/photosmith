@@ -1,0 +1,110 @@
+﻿Build started 8/30/2016 00:21:52.
+     1>Project "E:\Google Drive\Vallefor\UFRGS\4º Semestre\INF01046 - Fundamentos de Processamento de Imagens\Photosmith\Trabalho 3\Photosmith 3.0\Photosmith\Photosmith.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib ConvolveForm.cpp CustomZoomOutForm.cpp HistogramForm.cpp ImageUtils.cpp MainWindow.cpp AdjustColorsForm.cpp QuantizeForm.cpp
+         ConvolveForm.cpp
+     1>ConvolveForm.cpp(50): warning C4101: 'e': unreferenced local variable
+         CustomZoomOutForm.cpp
+     1>CustomZoomOutForm.cpp(31): warning C4101: 'e': unreferenced local variable
+     1>CustomZoomOutForm.cpp(43): warning C4101: 'e': unreferenced local variable
+         HistogramForm.cpp
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ImageUtils.h(32): error C2976: 'std::array': too few template arguments
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ImageUtils.h(32): error C3699: '^': cannot use this indirection on type 'std::array'
+         e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ImageUtils.h(32): note: compiler replacing '^' with '*' to continue parsing
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>HistogramForm.cpp(32): warning C4018: '<': signed/unsigned mismatch
+     1>HistogramForm.cpp(36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>HistogramForm.cpp(42): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>HistogramForm.cpp(44): warning C4018: '<': signed/unsigned mismatch
+     1>HistogramForm.cpp(48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+         ImageUtils.cpp
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ImageUtils.h(32): error C2976: 'std::array': too few template arguments
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ImageUtils.h(32): error C3699: '^': cannot use this indirection on type 'std::array'
+         e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ImageUtils.h(32): note: compiler replacing '^' with '*' to continue parsing
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>ImageUtils.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>ImageUtils.cpp(146): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>ImageUtils.cpp(151): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>ImageUtils.cpp(156): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>ImageUtils.cpp(197): warning C4018: '<': signed/unsigned mismatch
+     1>ImageUtils.cpp(209): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>ImageUtils.cpp(219): error C2976: 'std::array': too few template arguments
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>ImageUtils.cpp(219): error C3699: '^': cannot use this indirection on type 'std::array'
+         ImageUtils.cpp(219): note: compiler replacing '^' with '*' to continue parsing
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>ImageUtils.cpp(236): error C2676: binary '[': 'std::array' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>ImageUtils.cpp(237): error C2676: binary '[': 'std::array' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>ImageUtils.cpp(238): error C2676: binary '[': 'std::array' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>ImageUtils.cpp(258): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>ImageUtils.cpp(282): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>ImageUtils.cpp(283): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>ImageUtils.cpp(284): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>ImageUtils.cpp(286): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>ImageUtils.cpp(294): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>ImageUtils.cpp(295): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>ImageUtils.cpp(296): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>ImageUtils.cpp(298): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>ImageUtils.cpp(313): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>ImageUtils.cpp(342): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         MainWindow.cpp
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ImageUtils.h(32): error C2976: 'std::array': too few template arguments
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ImageUtils.h(32): error C3699: '^': cannot use this indirection on type 'std::array'
+         e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ImageUtils.h(32): note: compiler replacing '^' with '*' to continue parsing
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ConvolveForm.h(21): error C2976: 'std::array': too few template arguments
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ConvolveForm.h(21): error C3699: '^': cannot use this indirection on type 'std::array'
+         e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ConvolveForm.h(21): note: compiler replacing '^' with '*' to continue parsing
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ConvolveForm.h(29): error C2976: 'std::array': too few template arguments
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ConvolveForm.h(29): error C3699: '^': cannot use this indirection on type 'std::array'
+         e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\ConvolveForm.h(29): note: compiler replacing '^' with '*' to continue parsing
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>MainWindow.cpp(153): error C2872: 'Windows': ambiguous symbol
+         MainWindow.cpp(153): note: could be 'Windows'
+         MainWindow.cpp(153): note: or       'System::Windows'
+     1>MainWindow.cpp(153): error C3083: 'Forms': the symbol to the left of a '::' must be a type
+     1>MainWindow.cpp(153): error C3083: 'DialogResult': the symbol to the left of a '::' must be a type
+     1>MainWindow.cpp(153): error C2039: 'OK': is not a member of 'Windows'
+     1>MainWindow.cpp(153): error C2065: 'OK': undeclared identifier
+     1>MainWindow.cpp(181): error C2872: 'Windows': ambiguous symbol
+         MainWindow.cpp(181): note: could be 'Windows'
+         MainWindow.cpp(181): note: or       'System::Windows'
+     1>MainWindow.cpp(181): error C3083: 'Forms': the symbol to the left of a '::' must be a type
+     1>MainWindow.cpp(181): error C3083: 'DialogResult': the symbol to the left of a '::' must be a type
+     1>MainWindow.cpp(181): error C2039: 'OK': is not a member of 'Windows'
+     1>MainWindow.cpp(181): error C2065: 'OK': undeclared identifier
+     1>MainWindow.cpp(231): error C2872: 'Windows': ambiguous symbol
+         MainWindow.cpp(231): note: could be 'Windows'
+         MainWindow.cpp(231): note: or       'System::Windows'
+     1>MainWindow.cpp(231): error C3083: 'Forms': the symbol to the left of a '::' must be a type
+     1>MainWindow.cpp(231): error C3083: 'DialogResult': the symbol to the left of a '::' must be a type
+     1>MainWindow.cpp(231): error C2039: 'OK': is not a member of 'Windows'
+     1>MainWindow.cpp(231): error C2065: 'OK': undeclared identifier
+     1>MainWindow.cpp(234): error C2976: 'std::array': too few template arguments
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>MainWindow.cpp(234): error C3699: '^': cannot use this indirection on type 'std::array'
+         MainWindow.cpp(234): note: compiler replacing '^' with '*' to continue parsing
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(306): note: see declaration of 'std::array'
+     1>MainWindow.cpp(314): error C2872: 'Windows': ambiguous symbol
+         MainWindow.cpp(314): note: could be 'Windows'
+         MainWindow.cpp(314): note: or       'System::Windows'
+     1>MainWindow.cpp(314): error C3083: 'Forms': the symbol to the left of a '::' must be a type
+     1>MainWindow.cpp(314): error C3083: 'DialogResult': the symbol to the left of a '::' must be a type
+     1>MainWindow.cpp(314): error C2039: 'OK': is not a member of 'Windows'
+     1>MainWindow.cpp(314): error C2065: 'OK': undeclared identifier
+         AdjustColorsForm.cpp
+         QuantizeForm.cpp
+     1>QuantizeForm.cpp(30): warning C4101: 'e': unreferenced local variable
+         Generating Code...
+     1>e:\google drive\vallefor\ufrgs\4º semestre\inf01046 - fundamentos de processamento de imagens\photosmith\trabalho 3\photosmith 3.0\photosmith\convolveform.cpp(42): warning C4700: uninitialized local variable 'i' used
+     1>Done Building Project "E:\Google Drive\Vallefor\UFRGS\4º Semestre\INF01046 - Fundamentos de Processamento de Imagens\Photosmith\Trabalho 3\Photosmith 3.0\Photosmith\Photosmith.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:14.73
